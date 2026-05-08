@@ -1,0 +1,88 @@
+# Gradle
+.gradle/
+build/
+gradual_build/
+out/
+*.gradle
+
+# IDE
+.idea/
+.vscode/
+.classpath
+.project
+.settings/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Eclipse
+bin/
+.metadata/
+.recommenders/
+
+# IntelliJ
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+.nb-gradle/
+local.properties
+
+# Runtime data
+db.sqlite3
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Minecraft
+run/
+runs/
+*.jar.original
+*.jar.backup
+
+# Development
+.vscode/
+.idea/
+*.jar
+*.class
+*.log
+
+# Node (if using any Node tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock

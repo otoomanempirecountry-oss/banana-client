@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${version}",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
+  "authors": ["${mod_author}"],
+  "contact": {
+    "website": "https://github.com/otoomanempirecountry-oss/banana-client",
+    "sources": "https://github.com/otoomanempirecountry-oss/banana-client"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.otoomanempire.banana.BananaClientModMain"
+    ],
+    "client": [
+      "com.otoomanempire.banana.client.BananaClientEvents"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

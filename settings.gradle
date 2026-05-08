@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        maven { url = uri('https://maven.fabricmc.net/') }
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'banana-client'
+
+include ':banana-client'
